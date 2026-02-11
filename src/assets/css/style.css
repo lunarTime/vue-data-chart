@@ -1,0 +1,22 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin-inline: auto;
+  padding: 0 1rem;
+}
+
+.h1-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
